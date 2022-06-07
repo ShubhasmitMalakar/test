@@ -1,0 +1,46 @@
+$background-color: #531f69;
+
+@media screen and (prefers-color-scheme: dark) {
+    $background-color: black;
+}
+
+.landing {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  $background-color;
+}    
+
+.landing-left {
+    min-height: 100vh;
+    width: 50%;
+}
+
+.landing-right {
+    background-color: #ebbc56;
+    min-height: 100vh;
+    width: 50%;
+}
+
+
+.landing1 {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}    
+
+.landing1-left {
+    min-height: 100vh;
+    width: 50%;
+    background-color: #255aa3;
+}
+
+.landing1-right {
+    min-height: 100vh;
+    width: 50%;
+}
